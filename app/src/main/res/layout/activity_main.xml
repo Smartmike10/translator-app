@@ -140,7 +140,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:textColor="@color/yellow"
-        android:textSize="18sp"
+        android:textSize="19sp"
         android:id="@+id/idTVTranslatedTV" />
 
 
