@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/offWhite">
 
     <LinearLayout
         android:orientation="vertical"
@@ -45,14 +46,60 @@
             android:layout_marginTop="40dp"
             android:weightSum="3"
             android:layout_width="match_parent"
-            android:layout_height="60dp">
+            android:layout_height="60dp"
+            android:background="@drawable/background"
+            android:elevation="4dp">
 
             <Spinner
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:id="@+id/idFromSpinner"
+                android:layout_margin="3dp"
+                android:padding="3dp"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/exchange"
+                android:layout_gravity="center"
                 />
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/idToSpinner"
+                android:layout_margin="3dp"
+                android:padding="3dp"
+                android:layout_gravity="center"/>
         </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:padding="5dp"
+            app:hintEnabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:boxBackgroundMode="none"
+            android:elevation="8dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/idEditSource"
+                android:hint="Enter Text"
+                android:ems="10"
+                android:importantForAutofill="no"
+                android:inputType="textImeMultiLine|textMultiLine"
+                android:textColor="@color/black"
+                android:textSize="19sp">
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
 
 </ScrollView>
