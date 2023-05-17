@@ -96,10 +96,22 @@
                 android:importantForAutofill="no"
                 android:inputType="textImeMultiLine|textMultiLine"
                 android:textColor="@color/black"
-                android:textSize="19sp">
+                android:textSize="19sp"
+                android:gravity="top"
+                android:background="@drawable/background"
+                android:textColorHint="@color/colorSecondary">
 
             </com.google.android.material.textfield.TextInputEditText>
         </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:id="@+id/idBtnTranslation"
+            android:text="Translate"
+            android:textSize="19sp"
+            android:textAllCaps="false"/>
     </LinearLayout>
 
 </ScrollView>
