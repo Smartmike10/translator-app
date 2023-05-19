@@ -111,7 +111,55 @@
             android:id="@+id/idBtnTranslation"
             android:text="Translate"
             android:textSize="19sp"
-            android:textAllCaps="false"/>
+            android:textAllCaps="false"
+            android:background="@color/colorAccent"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:paddingTop="15sp"
+            android:paddingBottom="15sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idTranslatedTV"
+            android:text="Translated text Here"
+            android:background="@drawable/background"
+            android:elevation="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:padding="16sp"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:letterSpacing="0.03"
+            android:visibility="gone"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Or"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"></TextView>
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_mic"
+            android:id="@+id/idIVMic"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Say Something."
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"></TextView>
     </LinearLayout>
 
 </ScrollView>
