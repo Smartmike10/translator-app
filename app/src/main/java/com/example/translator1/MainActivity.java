@@ -23,11 +23,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        fromSpinner = findViewById(R.id.idFromSpinner);
-        toSpinner = findViewById(R.id.idToSpinner);
-        sourceEdt = findViewById(R.id.idEdtSource);
-        micIV = findViewById(R.id.idIVMic);
-        translateBtn = findViewById(R.id.idBtnTranslate);
-        translatedTv = findViewById(R.id.idTVTranslatedTV);
+
     }
 }
