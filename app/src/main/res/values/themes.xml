@@ -9,7 +9,7 @@
         <item name="colorSecondaryVariant">@color/colorSecondaryDark</item>
     </style>
 
-    <style name="NoActionBarTheme" parent="base.Theme.Translator1">
+    <style name="NoActionBarTheme">
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
 
